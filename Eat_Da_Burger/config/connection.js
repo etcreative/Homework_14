@@ -4,7 +4,7 @@ var mysql = require("mysql"); //* npm package requiring the Mysql
 var connection = mysql.createConnection({
 	host:"localhost",
 	user:"root",
-	password:"Apple123",
+	password:"root",
 	database:"burgers_db"
 })
 

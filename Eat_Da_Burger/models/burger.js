@@ -16,7 +16,7 @@ var burger = {
 	},
 
 	create: function(name,cb){
-		form.create('burgers',name,cb);
+		orm.create('burgers',name,cb);
 	}
 }
 
